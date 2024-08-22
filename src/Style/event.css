@@ -1,0 +1,60 @@
+.subvector{
+    background: url("../Images/Vector 64.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+}
+.subvector1{
+    margin-top: -10rem;
+}
+.subvector1 p{
+    color:gray;
+    font-size: 0.8rem;
+}
+.subvector1 span{
+
+    font-size: 0.8rem;
+}
+
+@media (max-width: 1199px) { /* Tablets and small screens */
+    .subvector1 {
+        margin-top: -5rem;
+    }
+    .subvector{
+        height: 30rem;
+    }
+}
+
+@media (max-width: 991px) { /* Small tablets and large phones */
+    .subvector1 {
+        margin-top: -15rem; /* Remove negative margin for tablets and phones */
+    }
+
+    .subvector1 .col-lg-3, 
+    .subvector1 .col-md-6, 
+    .subvector1 .col-sm-12 {
+        margin-top: 1rem; /* Add space between cards */
+    }
+
+    .subvector1 .border {
+        margin-top: 0 !important; /* Ensure cards don't overlap */
+    }
+}
+
+@media (max-width: 767px) { /* Mobile screens */
+    .subvector1 .col-lg-3, 
+    .subvector1 .col-md-6, 
+    .subvector1 .col-sm-12 {
+        margin-top: 0; /* Reset margin top */
+    }
+
+    .subvector1 .border {
+        margin-top: 0 !important; /* Ensure cards don't overlap */
+    }
+
+    .subvector1 .col-lg-3 {
+        margin: 0.5rem; /* Add space around cards */
+        flex: 1 1 calc(100% - 1rem); /* Full width minus margin */
+    }
+}

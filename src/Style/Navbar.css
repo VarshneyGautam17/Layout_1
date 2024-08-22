@@ -1,0 +1,24 @@
+.navbarclass{
+    background-color: white !important;
+    color:black !important;
+    /* border-bottom: 1px solid black; */
+}
+.ulclass{
+    /* border-color: red !important; */
+    display: flex;
+    justify-content: end;
+    padding-right: 1.5rem;
+}
+.ulclass li{
+   color:black !important;
+   font-weight: 600;
+   margin:0.1rem;
+   border-radius: 0.5rem;
+   padding: 0;
+   
+}
+.ulclass li :hover{
+
+    border-bottom: 2px solid #FA5A5A;
+   font-weight: 600;
+}

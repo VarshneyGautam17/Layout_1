@@ -1,0 +1,89 @@
+.home-demo3 .item {
+    background-color: white;
+    height: auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.557);
+    border-radius: 0.6rem;
+   border-top:none ;
+    margin: 1rem;
+    padding: 0rem;
+
+}
+
+
+
+.home-demo3 h6 {
+    color: black;
+  
+    font-size: 1rem;
+    margin-top: -0.3rem;
+   
+}
+
+.home-demo3 p {
+    color: gray;
+    padding-top: 0.4rem;
+    padding-left: 0rem;
+    margin: 0rem;
+  
+}
+
+.carimgclass{
+    margin-top: -8.5rem;
+    padding: 0;
+    height: 23rem;
+
+}
+
+.carimgcon{
+    margin-top: 7rem;
+    display: flex;
+    padding: 0;
+
+    justify-content: center;
+    background-color: #fa5a5a;
+
+}
+
+
+
+
+
+
+
+
+
+
+.owl-theme .owl-dots .owl-dot span {
+    background-color: #fa5a5a80 !important;
+    border: none !important  
+}
+
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background-color: #fa5a5a !important;
+    border: none !important ; 
+}
+
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    transition: background-color 0.3s ease;
+    border: none !important 
+}
+
+
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #fa5a5a !important; 
+    border: none !important ;
+}
+
+
+
+
+
+
+
+
+
+

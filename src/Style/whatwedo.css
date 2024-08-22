@@ -1,0 +1,16 @@
+.con1{
+    background: url("../Images/backone.PNG") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.boxes{
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.265);
+    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

@@ -1,0 +1,95 @@
+.home-demo .item {
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.596);
+  
+   border-radius: 1rem;
+    height: auto;
+
+}
+
+.home-demo h2 {
+    color: black;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    font-size: 1.6rem;
+    
+
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background-color: #fa5a5a80 !important;
+    border: none !important  
+}
+
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background-color: #fa5a5a !important;
+    border: none !important ; 
+}
+
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    transition: background-color 0.3s ease;
+    border: none !important 
+}
+
+
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #fa5a5a !important; 
+    border: none !important ;
+}
+
+
+
+
+
+
+
+
+.home-demo p {
+    color: black;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    color: gray;
+}
+
+
+.progress-bar__wrapper {
+    position: relative;
+  }
+  .progress-bar__value {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 0.7rem;
+    gap: 8px;
+    top: 55%;
+    font-weight: 600;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  progress {
+    width: 100%;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #ddd;
+    transition: width 300ms ease;
+  }
+  progress[value]::-webkit-progress-bar {
+    width: 100%;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #ddd;
+    transition: width 300ms ease;
+  }
+  progress[value]::-webkit-progress-value {
+    width: 0;
+    border-radius: 50px;
+    background-color: #FA5A5A;
+    transition: width 300ms ease;
+  }
+  
